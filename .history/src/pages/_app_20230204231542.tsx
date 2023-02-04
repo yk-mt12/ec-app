@@ -25,6 +25,7 @@ a {
 ol, ul {
   list-style: none;
 }
+
 `;
 
 const MyApp = ({ Component, pageProps }: AppProps) => {

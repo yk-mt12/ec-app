@@ -25,6 +25,7 @@ a {
 ol, ul {
   list-style: none;
 }
+
 `;
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
@@ -46,4 +47,4 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   );
 };
 
-export default MyApp;
+export default MyA

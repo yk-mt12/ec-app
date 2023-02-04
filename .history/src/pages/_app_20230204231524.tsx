@@ -25,6 +25,7 @@ a {
 ol, ul {
   list-style: none;
 }
+
 `;
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
@@ -41,9 +42,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         <meta property="og:type" content="website" />
       </Head>
       <GlobalStyle />
-      <Component {...pageProps} />
+      <Component {}/>
     </>
   );
 };
-
-export default MyApp;
