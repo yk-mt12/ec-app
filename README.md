@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -37,3 +35,23 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # ec-app
+## Branch strategy
+```
+機能開発: feature/ブランチ名
+バグ修正: hotfix/ブランチ名 bug/ブランチ名
+```
+## Commit message
+```
+feat: 新しい機能
+fix: バグの修正
+docs: ドキュメントのみの変更
+style: 空白、フォーマット、セミコロン追加など
+refactor: 仕様に影響がないコード改善(リファクタ)
+perf: パフォーマンス向上関連
+test: テスト関連
+chore: ビルド、補助ツール、ライブラリ関連
+```
+```
+feat: 〇〇なため、△△を追加
+ex) 記事の分類ができないため、タグ機能を追加
+```
