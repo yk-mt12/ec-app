@@ -10,7 +10,8 @@
     "format": "next lint --fix --dir src",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=220b13f7de3c"
+    "chromatic": "chromatic",
+    "test": "jest"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
