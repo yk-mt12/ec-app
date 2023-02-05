@@ -6,4 +6,6 @@ const nextConfig = {
   }
 }
 
+require('dotenv').config({ path: `./.env.${process.env.ENVIRONMENT}` })
+
 module.exports = nextConfig
