@@ -1,8 +1,8 @@
-import colors from "./colors";
-import fontSizes from "./fontSize";
-import letterSpacings from "./letterSpacings";
-import lineHeights from "./lineHeights";
-import space from "./spaces";
+import colors from './colors'
+import fontSizes from './fontSize'
+import letterSpacings from './letterSpacings'
+import lineHeights from './lineHeights'
+import space from './spaces'
 
 export const theme = {
   space,
@@ -10,4 +10,4 @@ export const theme = {
   letterSpacings,
   lineHeights,
   colors,
-} as const;
+} as const

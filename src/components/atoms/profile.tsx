@@ -1,15 +1,15 @@
-import useSWR from "swr";
+import useSWR from 'swr'
 
 type User = {
-  name: string;
-};
+  name: string
+}
 
 const Profile = () => {
-  const { data, error } = useSWR<User>("/api/user", fetcher);
+  const { data, error } = useSWR<User>('/api/user', fetcher)
 
-  if (error) return <div>failed to load</div>;
-  if (!data) return <div>loading...</div>;
-  return <div>Hello {data.name}!</div>;
-};
+  if (error) return <div>failed to load</div>
+  if (!data) return <div>loading...</div>
+  return <div>Hello {data.name}!</div>
+}
 
-export default Profile;
+export default Profile
